@@ -28,7 +28,7 @@ export default function TextForm(props) {
     let newText = "";
     setText(newText);
   };
-
+//input
   const listenText = () => {
     let speech = new SpeechSynthesisUtterance();
     speech.text = text;
